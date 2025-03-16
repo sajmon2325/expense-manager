@@ -1,0 +1,41 @@
+﻿# Build artifacts
+bin/
+obj/
+
+# Rider & VS Code settings
+.idea/
+.vscode/
+*.sln.iml
+
+# Ignore NuGet package artifacts
+*.nupkg
+project.assets.json
+
+# Logs
+logs/
+*.log
+
+# ASP.NET temp files
+tmp/
+
+# User-specific files
+*.pfx
+*.key
+secrets.json
+
+# Configuration files
+appsettings.Development.json
+appsettings.Local.json
+
+# Docker
+docker-compose.override.yml
+.env
+
+# Test coverage and reports
+*.coverage
+*.coveragexml
+*.log
+
+# Resharper & dotCover settings
+*.DotSettings.user
+*.dotCover
