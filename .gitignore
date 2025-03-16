@@ -39,3 +39,5 @@ docker-compose.override.yml
 # Resharper & dotCover settings
 *.DotSettings.user
 *.dotCover
+
+/Properties/launchSettings.json
